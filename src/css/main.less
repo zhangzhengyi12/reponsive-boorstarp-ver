@@ -8,7 +8,13 @@ html{
 @header-top-color:#555555;
 //颜色声明区域结束
 
-
+//bootatrp增强
+@media (max-width: 767px) {
+  #header > .navbar > .container-fluid > .navbar-header > a > img{
+    padding: 0.4rem 1.5rem 0 1.5rem;
+  }
+}
+//bootstarp增强
 //header样式开始
 
 //header-top start
@@ -17,25 +23,60 @@ html{
     background-color: @header-top-color;
     height: 2rem;
     color: #f7f7f7;
+    border-bottom: 1px solid #ecc000;
     .col-md-3{
       span{
         line-height: 2rem;
+        font-size: 0.7rem;
       }
     }
     .col-md-6{
       ul.list-inline{
+        margin-bottom: 0rem;
         li+li{
           border-left: 1px solid #999;
         }
         li{
           a{
-            line-height: 2rem;
+            line-height: 1.9999rem;
             text-decoration: none;
             color: #f7f7f7;
             padding: 0 0.5rem ;
-            font-size: 0.8rem;
+            font-size: 0.7rem;
             &:hover {
               text-decoration: underline;
+            }
+          }
+        }
+      }
+    }
+  }
+  .navbar-default{
+    div.navbar-header{
+      >a{
+        padding: 0;
+        line-height: 4rem;
+        img{
+          padding: 0.9rem 0rem 0.9rem 1rem;
+        }
+      }
+    }
+    div.navbar-collapse{
+      ul{
+        li.active{
+          a{
+            background-color: transparent;
+          }
+        }
+        li{
+          border-left: 1px solid #f0ede9 ;
+          a{
+            line-height: 4rem;
+            padding: 0 1.5rem;
+            font-size: 1rem;
+            font-weight: bold;
+            &:hover {
+              color: #ffb300;
             }
           }
         }
