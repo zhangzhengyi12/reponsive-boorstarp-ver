@@ -1,0 +1,49 @@
+//html基础样式
+html{
+  font-size: 16px;
+}
+//html基础样式结束
+
+//颜色声明区域
+@header-top-color:#555555;
+//颜色声明区域结束
+
+
+//header样式开始
+
+//header-top start
+#header{
+  >.header-top-bar{
+    background-color: @header-top-color;
+    height: 2rem;
+    color: #f7f7f7;
+    .col-md-3{
+      span{
+        line-height: 2rem;
+      }
+    }
+    .col-md-6{
+      ul.list-inline{
+        li+li{
+          border-left: 1px solid #999;
+        }
+        li{
+          a{
+            line-height: 2rem;
+            text-decoration: none;
+            color: #f7f7f7;
+            padding: 0 0.5rem ;
+            font-size: 0.8rem;
+            &:hover {
+              text-decoration: underline;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+//header-top stop
+
+
+//header样式结束
