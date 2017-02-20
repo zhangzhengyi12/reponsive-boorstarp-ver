@@ -10,6 +10,8 @@
     <!-- Bootstrap -->
     <link rel="stylesheet" type="text/css" href="lib/Bootstarp/css/bootstrap.css">
     <link rel="stylesheet/less" type="text/css" href="css/main.less">
+    <link rel="stylesheet/less" type="text/css" href="css/nav-lcwz.less">
+
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -23,9 +25,9 @@
 <!--头部样式-->
 <header id="header">
     <div class="header-top-bar">
-        <div class="container">
+        <div class="container-fluid">
             <div class="row">
-                <div class="col-md-3 hidden-sm hidden-xs text-left">
+                <div class="col-md-3 hidden-sm hidden-xs text-center">
                     <span>理财热线：4001515-515-22</span>
                 </div>
                 <div class="col-md-6 col-sm-12 text-right pull-right">
@@ -40,12 +42,12 @@
             </div>
         </div>
     </div>
-    <nav class="navbar navbar-default">
+    <nav class="navbar navbar-lcwz navbar-static-top">
         <div class="container-fluid">
             <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-                    <span class="sr-only">导航</span>
+                    <span class="sr-only">Toggle navigation</span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
@@ -56,7 +58,7 @@
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
-                    <li class="active"><a href="#">首页<span class="sr-only">(current)</span></a></li>
+                    <li class="active"><a href="#">首页</a></li>
                     <li><a href="#">理财频道</a></li>
                     <li><a href="#">投资频道</a></li>
                     <li><a href="#">新手专区</a></li>
@@ -69,10 +71,66 @@
 </header>
 <!--/头部样式-->
 
+<!--轮播图-->
+<section id="carousel">
+    <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+            <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+            <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+            <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+        </ol>
+
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner" role="listbox">
+            <div class="item active">
+                <a href="">
+                    <picture>
+                        <source srcset="img/ad002-l.png" media="(min-width:50em)" style="width: 100%;height: auto">
+                        <source srcset="img/ad002-m.png" media="(min-width:30em)" style="width: 100%;height: auto">
+                        <img src="img/ad002.png" style="width: 100%;height: auto">
+                    </picture>
+                </a>
+            </div>
+            <div class="item">
+                <a href="">
+                    <picture>
+                        <source srcset="img/ad003-l.png" media="(min-width:50em)" style="width: 100%;height: auto">
+                        <source srcset="img/ad003-m.png" media="(min-width:30em)" style="width: 100%;height: auto">
+                        <img src="img/ad003.png"style="width: 100%;height: auto">
+                    </picture>
+                </a>
+            </div>
+            <div class="item">
+                <a href="">
+                    <picture>
+                        <source srcset="img/ad001-l.png" media="(min-width:50em)" style="width: 100%;height: auto">
+                        <source srcset="img/ad001-m.png" media="(min-width:30em)" style="width: 100%;height: auto">
+                        <img src="img/ad003.png" style="width: 100%;height: auto">
+                    </picture>
+                </a>
+            </div>
+        </div>
+
+        <!-- Controls -->
+        <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+            <span class="sr-only">上一张</span>
+        </a>
+        <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+            <span class="sr-only">下一张</span>
+        </a>
+    </div>
+</section>
+<!--/轮播图-->
+Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur dolores eveniet libero suscipit tempore ut voluptatum! Explicabo minus qui quod repudiandae sapiente? A accusamus amet aut dicta dolor doloremque dolores esse eum eveniet excepturi exercitationem id iure minima nobis nulla numquam optio perferendis provident quis sapiente sit tempora, ullam ut voluptas voluptatem! Aliquid dolor earum, error eveniet explicabo illo impedit inventore non quam, quasi, sapiente voluptas voluptatem. Aliquid commodi dolor fugiat libero odit. Beatae dolores earum, eum exercitationem facilis hic ipsa, nobis pariatur possimus quasi quisquam rem veritatis voluptatibus. Adipisci alias, corporis dicta esse est exercitationem explicabo id iure maxime praesentium quaerat quam qui quos recusandae repellendus rerum similique sint tenetur ut voluptatum! Aperiam commodi, magnam obcaecati officia optio provident unde? Corporis cum eligendi expedita id odit pariatur quos, sed sunt veniam voluptatibus! Adipisci aliquid animi architecto aspernatur at consequatur culpa error id labore laborum minima, nihil, quas quidem quod temporibus unde voluptatum? Architecto assumenda atque culpa cum cupiditate debitis dolore dolores doloribus, harum illum ipsam necessitatibus nemo, neque nesciunt nobis officia repudiandae sed tempore vitae voluptatum! Amet consequatur fugiat incidunt minima pariatur! Accusamus ad asperiores deleniti magnam magni nihil non porro repellendus sequi, temporibus voluptas voluptate! Accusamus aliquam, animi atque autem blanditiis consequatur consequuntur corporis distinctio dolorem eveniet facilis ipsum iste labore laboriosam, nesciunt pariatur praesentium provident quia quo quod sequi velit veritatis voluptas. A ab accusantium adipisci aliquam asperiores aspernatur at beatae dolor dolore doloremque dolores earum eius explicabo id impedit ipsa maiores, maxime mollitia non officia pariatur perspiciatis quia quis quo quod sequi unde vero? Animi corporis in incidunt maiores nostrum provident quae, quaerat. A, aliquid est iure labore odit recusandae repellat. Accusantium, aspernatur quidem. Aliquid asperiores, aspernatur at consequuntur corporis deleniti deserunt dolorem doloremque eaque earum eligendi eos et illum inventore ipsa, laboriosam laborum maxime molestiae nemo nobis, odio officiis optio pariatur perspiciatis provident ratione sit sunt tempora unde voluptatem! Ab architecto asperiores atque commodi corporis culpa debitis, distinctio eaque earum et fuga harum, nemo nesciunt numquam omnis quas quia vitae voluptas voluptate voluptatem! Ab architecto asperiores cum cupiditate doloribus eius error eveniet exercitationem expedita illo ipsa nobis pariatur quibusdam, quisquam reiciendis, rerum ut. Accusamus architecto, cum deleniti dolore ducimus eos error incidunt inventore ipsam iure laboriosam molestias natus nemo nisi officiis perspiciatis possimus quaerat quia, quidem quisquam ratione sed similique sint tenetur vitae. Consectetur eaque enim, est exercitationem, incidunt laudantium officia quisquam repudiandae sapiente similique, sit soluta veniam voluptates! Amet aut commodi corporis dicta ea, earum ex explicabo id illum impedit incidunt ipsum libero mollitia odit officiis perferendis quis sequi similique temporibus ullam? A ab blanditiis consequuntur, deleniti dicta dolores dolorum ea eveniet, explicabo fuga hic iste itaque iusto labore minus necessitatibus neque nulla odio odit officiis omnis porro quos reprehenderit repudiandae sed, sit tempore unde velit vero voluptatum? At, aut autem blanditiis eius molestias optio quaerat ullam voluptatem voluptatum. Ad adipisci amet architecto assumenda autem, eaque earum eligendi, enim, ipsa mollitia nobis nulla rem reprehenderit repudiandae rerum saepe sequi ut. Consequuntur modi odio pariatur quam sint? Alias architecto delectus dolores error iusto laudantium perferendis, reiciendis sunt! Architecto aut corporis ea esse facilis impedit ipsa ipsum iure maxime molestiae natus obcaecati odit perspiciatis porro provident quam soluta, temporibus totam. Ad at blanditiis dicta est expedita iusto nemo obcaecati ratione recusandae saepe sed veritatis voluptatem, voluptates. Ad consequuntur ex ipsam laboriosam non officiis, pariatur sapiente. Ad culpa, cumque delectus dicta dolorem dolorum ea eveniet hic illum ipsam perspiciatis placeat provident quae quam, quas qui recusandae repellat repellendus sint tempore totam ut veritatis voluptate. Ad aliquam impedit iste mollitia suscipit totam unde. Animi blanditiis consectetur cupiditate debitis delectus deleniti dolorem, ea earum eveniet itaque laudantium magni minima nisi numquam quas quasi quo totam veritatis. Asperiores aspernatur assumenda atque autem consectetur cum doloremque eligendi enim error exercitationem fugiat impedit itaque laudantium magnam, modi molestiae nesciunt quam repellat, velit veniam. Adipisci aperiam assumenda impedit incidunt laudantium, molestias nostrum obcaecati recusandae? Adipisci autem culpa deleniti doloremque exercitationem fugiat hic impedit ipsam itaque magnam, magni nisi obcaecati quaerat ratione repellendus rerum soluta ullam veniam vero voluptates. Adipisci asperiores consequuntur distinctio inventore ipsum nesciunt provident tenetur velit. Ad aliquid architecto, commodi dignissimos fuga illum laboriosam laudantium mollitia nesciunt officiis quae saepe voluptas. Consequuntur dolorem doloribus facilis impedit incidunt labore laborum libero molestiae nam, necessitatibus odio officia saepe, soluta ullam voluptates. A accusantium animi aperiam asperiores, at culpa cupiditate deserunt dolor eaque eius eligendi error facere facilis fugiat illo impedit minus necessitatibus nesciunt obcaecati odit quibusdam quo reprehenderit, rerum sed, voluptatum? A accusantium autem deleniti deserunt dolore, eaque esse eveniet facilis, ipsam laboriosam laborum magni maxime necessitatibus nostrum odio officia provident quae quibusdam rerum sapiente similique vitae voluptas, voluptatum! Amet aperiam delectus distinctio dolor eligendi est exercitationem hic ipsa, nemo nihil nisi, numquam odio officiis sit sunt? Aperiam consectetur, eum explicabo incidunt iure officiis optio rem tenetur? Deleniti deserunt ducimus enim magni minima mollitia perferendis unde velit. Alias aliquam architecto consequatur doloremque eius facilis labore libero, omnis rerum ullam. A aliquid, amet eveniet iste maxime, nesciunt odit, quaerat reprehenderit saepe sequi tempora vel. Accusantium esse excepturi exercitationem hic illum molestiae mollitia non sed voluptates. Delectus dicta eos nam placeat quia recusandae ullam. Aspernatur dolor doloribus exercitationem expedita illo molestiae optio possimus provident quia quibusdam, soluta sunt, tempora temporibus. At aut, consequuntur dicta maiores non totam voluptatibus? Ab accusantium alias aliquam aliquid asperiores atque blanditiis commodi consequatur corporis culpa cum dignissimos dolorem doloremque dolores doloribus ducimus eaque eligendi, ex facere fugiat, harum hic impedit incidunt iure libero maxime nam nihil obcaecati, officia pariatur quae repellendus sint tenetur! Alias distinctio dolor doloribus eos error esse est et exercitationem fugit ipsa iusto magni maiores natus provident qui quos reiciendis similique sint, suscipit voluptates! Aliquam beatae dolore eos fuga nam nostrum, officiis quaerat, quas sed sequi soluta sunt. A ad aliquam aut, blanditiis distinctio dolore dolorem dolorum ex, explicabo harum id impedit molestias neque odio omnis placeat provident quasi sed similique sint tempore temporibus totam velit. Consequatur doloremque est, explicabo fuga minima odit perferendis quasi sunt tenetur.
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 <script src="https://cdn.bootcss.com/jquery/1.12.4/jquery.min.js"></script>
 <!-- Include all compiled plugins (below), or include individual files as needed -->
 <script src="lib/Bootstarp/js/bootstrap.js"></script>
-<script src="//cdnjs.cloudflare.com/ajax/libs/less.js/2.5.3/less.min.js"></script>
+<script src="lib/less/less.min.js"></script>
+<!--<script src="//cdn.bootcss.com/picturefill/3.0.2/picturefill.js"></script>-->
+<script src="js/main.js"></script>
 </body>
 </html>
