@@ -33,3 +33,25 @@ $(function () {
     }) //在触摸完成后 触发对比事件 和bootstarp自带的翻页方法
 
 });
+
+var windowWidth = $(window).width();
+function setHeight() {
+    var windowWidth = $(window).width();
+    if(windowWidth > 992)
+    {
+        var getParenHeight = document.getElementsByClassName("autoheight-p");
+        for(var i=0 ; i<getParenHeight.length ; i++){
+            var currentP = getParenHeight[i];
+            var height = currentP.offsetHeight;
+        }
+        var getChildHeight = document.getElementsByClassName("autoheight-c");
+        for(var j=0;j<getChildHeight.length ; j++){
+            var currentC = getChildHeight[j];
+            console.log(typeof currentC);
+            console.log(height);
+            currentC.style.height = height+"px";
+        }
+    }
+
+}
+setHeight();

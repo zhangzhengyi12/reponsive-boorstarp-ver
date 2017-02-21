@@ -114,6 +114,7 @@ html{
          @media(min-width: 998px){
            text-align: left;
          }
+         color: #999999;
          line-height: 1.2rem;
          margin-top: 0.8rem;
        }
@@ -165,3 +166,97 @@ html{
   }
 }
 //notice
+
+//产品推荐开始
+#products{
+  .container{
+    >.row{
+      border-top: 2px solid #ff9900;
+      margin: 2rem 0;
+      box-shadow: 0 0 4px #ccc;
+      >div.col-md-3{
+        padding-right: 0;
+        h4{
+          font-size: 1.5rem;
+          color: #635c51;
+          margin: 2rem 0;
+        }
+        color: #635c51;
+        background-color: #f5f9fa;
+        p{
+          margin-top: 2rem;
+          font-size: 1rem;
+        }
+      }
+      >.autoheight-p{
+        border-left: 1px solid #eee;
+        @media(max-width: 768px){
+          border-left: none;
+        }
+        .row{
+          >.col-xs-12{
+            @media(max-width: 768px){
+              padding: 0;
+            }
+            border-bottom: 1px solid #eee;
+            >.col-xs-4{
+              border-right: 1px solid #eee;
+              @media(max-width: 768px){
+                border-right: none;
+                padding: 0;
+                margin-left: -1rem;
+              }
+              p{
+                line-height: 4rem;
+                em{
+                  font-size: 1.5rem;
+                  margin-right: 0.25rem;
+                }
+              }
+            }
+            >.col-sm-6{
+              border-right: 1px solid #eee;
+              height: 4.78rem;
+              @media(max-width: 768px){
+                border-right: none;
+                padding: 0;
+              }
+              p{
+                display: inline-block;
+                padding-top: 0.6rem;
+                line-height: 1.4rem;
+                width: 48%;
+                font-size: 0.75rem;
+                em{
+                  color: #dba824;
+                  font-size: 1rem;
+                  font-style: normal;
+                  font-weight: bold;
+                }
+              }
+            }
+            >.col-sm-3{
+              a {
+                display: inline-block;
+                width: 80%;
+                margin-left: 10%;
+                background-color: @lcwz-main-color;
+                border-radius: 3px;
+                line-height: 2.4rem;
+                margin-top: 1.2rem;
+                color: #ffffff;
+                @media(max-width: 768px){
+                  margin-bottom: 1.2rem;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+//产品推荐结束
+
+
+
