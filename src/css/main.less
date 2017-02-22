@@ -228,7 +228,6 @@ html{
                 width: 48%;
                 font-size: 0.75rem;
                 em{
-
                   color: #dba824;
                   font-size: 1rem;
                   font-style: normal;
@@ -248,6 +247,7 @@ html{
                 color: #ffffff;
                 @media(max-width: 768px){
                   margin-bottom: 1.2rem;
+                  margin-left: 0;
                 }
               }
             }
@@ -258,6 +258,111 @@ html{
   }
 }
 //产品推荐结束
+
+//相关推荐开始
+#footer-content {
+  >div.container{
+    .row{
+      div.col-md-3{
+        i{
+          display: inline-block;
+          height: 35px;
+          width: 150px;
+          background-image: url("../img/logo@1x.png");
+          background-size: 150px 35px;
+          filter: grayscale(100%);
+        }
+      }
+      .col-md-9{
+        padding: 0;
+        .row{
+          margin: 0 0 0 0 ;
+          .col-xs-3{
+            padding: 0;
+            >ul{
+              padding: 0;
+              .first-li{
+                font-size: 1rem;
+                color: #555555;
+                font-weight: bold;
+              }
+              li{
+                list-style: none;
+                padding: 0;
+                text-align: center;
+                color: #cccccc;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+//相关推荐结束
+
+
+//底部版权区
+#footer-copyright{
+  .container{
+    ul{
+      padding-left: 0;
+      margin: 0 auto;
+      width: 422px;
+      li{
+        list-style: none;
+        display: inline-block;
+        margin-right: 0.5rem;
+        span {
+          background-image: url("../img/cert1.png");
+          display: inline-block;
+          background-size:466px 447px;
+        }
+        span.icon-01{
+          width: 38px;
+          height: 27px;
+          background-position: -369px -45px;
+        }
+        span.icon-02{
+          width: 78px;
+          height: 27px;
+          background-position: -110px -96px;
+        }
+        span.icon-03{
+          width: 36px;
+          height: 27px;
+          background-position: -426px -90px;
+        }
+        span.icon-04{
+          width: 63px;
+          height: 27px;
+          background-position: -401px -186px;
+        }
+        span.icon-05{
+          width: 22px;
+          height: 27px;
+          background-position: -48px -48px;
+        }
+        span.icon-06{
+          width: 75px;
+          height: 27px;
+          background-position: 0px -320px;
+        }
+        span.icon-07{
+          width: 30px;
+          height: 30px;
+          margin-right: 0;
+          background: url("../img/cert2.png");
+          background-position: 0px 0;
+        }
+      }
+    }
+    p{
+      text-align: center;
+    }
+  }
+}
+//底部版权区结束
 
 
 
