@@ -1,0 +1,456 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
+    <title>理财网站</title>
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" type="text/css" href="lib/Bootstarp/css/bootstrap.css">
+    <!--<link rel="stylesheet/less" type="text/css" href="css/main.less">-->
+    <!--<link rel="stylesheet/less" type="text/css" href="css/nav-lcwz.less">-->
+    <link rel="stylesheet" type="text/css" href="css/main.css"/>
+
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="https://cdn.bootcss.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <script src="https://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+
+<!--头部样式-->
+<header id="header">
+    <div class="header-top-bar">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-3 hidden-sm hidden-xs text-center">
+                    <span>理财热线：4001515-515-22</span>
+                </div>
+                <div class="col-md-6 col-sm-12 text-right pull-right">
+                    <ul class="list-inline">
+                        <li><a href="#">登陆</a></li>
+                        <li><a href="#">快速注册</a></li>
+                        <li class="hidden-xs"><a href="#">帮助</a></li>
+                        <li><a href="#">APP下载</a></li>
+                        <li class="hidden-xs"><a href="#" >关于</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <nav class="navbar navbar-lcwz navbar-static-top">
+        <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#"><img src="img/logo@1x.png" alt=""></a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="active"><a href="#">首页</a></li>
+                    <li><a href="#">理财频道</a></li>
+                    <li><a href="#">投资频道</a></li>
+                    <li><a href="#">新手专区</a></li>
+                    <li><a href="#">安全保障</a></li>
+                    </li>
+                </ul>
+            </div><!-- /.navbar-collapse -->
+        </div><!-- /.container-fluid -->
+    </nav>
+</header>
+<!--/头部样式-->
+
+<!--轮播图-->
+<section id="carousel">
+    <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+            <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+            <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+            <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+        </ol>
+
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner" role="listbox">
+            <div class="item active">
+                <a href="">
+                    <picture>
+                        <source srcset="img/ad002-l.png" media="(min-width:50em)" style="width: 100%;height: auto">
+                        <source srcset="img/ad002-m.png" media="(min-width:30em)" style="width: 100%;height: auto">
+                        <img src="img/ad002.png" style="width: 100%;height: auto">
+                    </picture>
+                </a>
+            </div>
+            <div class="item">
+                <a href="">
+                    <picture>
+                        <source srcset="img/ad003-l.png" media="(min-width:50em)" style="width: 100%;height: auto">
+                        <source srcset="img/ad003-m.png" media="(min-width:30em)" style="width: 100%;height: auto">
+                        <img src="img/ad003.png"style="width: 100%;height: auto">
+                    </picture>
+                </a>
+            </div>
+            <div class="item">
+                <a href="">
+                    <picture>
+                        <source srcset="img/ad001-l.png" media="(min-width:50em)" style="width: 100%;height: auto">
+                        <source srcset="img/ad001-m.png" media="(min-width:30em)" style="width: 100%;height: auto">
+                        <img src="img/ad001.png" style="width: 100%;height: auto">
+                    </picture>
+                </a>
+            </div>
+        </div>
+
+        <!-- Controls -->
+        <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+            <span class="sr-only">上一张</span>
+        </a>
+        <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+            <span class="sr-only">下一张</span>
+        </a>
+    </div>
+</section>
+<!--/轮播图-->
+<!--网站介绍面板-->
+<sectinon id="aboutus">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-4 col-xs-12">
+                <div class="ab-item clearfix">
+                    <div class="col-md-4 col-sm-12 col-xs-5 text-center"><h4>安全</h4></div>
+                    <div class="col-md-8 col-sm-12 col-xs-7 text-center ab-p"><p>国家AAA信用平台<br>银行资金托管<br>上市公司背景保证</p></div>
+                </div>
+            </div>
+            <div class="col-sm-4 col-xs-12">
+                <div class="ab-item clearfix">
+                    <div class="col-md-4 col-sm-12 col-xs-5 text-center"><h4>安全</h4></div>
+                    <div class="col-md-8 col-sm-12 col-xs-7 text-center ab-p"><p>国家AAA信用平台<br>银行资金托管<br>上市公司背景保证</p></div>
+                </div>
+            </div>
+            <div class="col-sm-4 col-xs-12">
+                <div class="ab-item clearfix">
+                    <div class="col-md-4 col-sm-12 col-xs-5 text-center"><h4>安全</h4></div>
+                    <div class="col-md-8 col-sm-12 col-xs-7 text-center ab-p"><p>国家AAA信用平台<br>银行资金托管<br>上市公司背景保证</p></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</sectinon>
+<!--网站介绍面板-->
+
+<!--网站公告-->
+<sectinon id="notice">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-xs-8">
+                <p>
+                    <a href="#">最新公告：&nbsp; &nbsp;
+                        <span class="hidden-sm hidden-xs">2017-2-20 &nbsp; &nbsp;</span>
+                        <span class="notice-content">
+            元旦期间的业务公告即受理公告元旦期间的业务公告即受理公告
+                        </span>
+                    </a>
+                </p>
+            </div>
+            <div class="col-xs-4 pull-right text-right">
+                <a href="#">更多公告</a>
+            </div>
+        </div>
+    </div>
+</sectinon>
+<!--网站公告-->
+<!--产品推荐-->
+<section id="products">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3 col-xs-12 text-center autoheight-c">
+                <h4>固定期限产品</h4>
+                <p>甄选优质基金<br>
+                    省时省力<br>
+                    坐等收益</p>
+            </div>
+            <div class="col-md-9 col-xs-12 autoheight-p">
+                <div class="row">
+                    <div class="col-xs-12">
+                        <div class="col-sm-3 col-xs-4 text-center"><p><em>3</em>个月</p></div>
+                        <div class="col-sm-6 col-xs-8 text-center">
+                            <p >约定年化收益率
+                                <br>
+                                <em>3.50%</em>起
+                            </p>
+                            <p >
+                                总成交金额
+                                <br>
+                                <em>1880</em>万元
+                            </p>
+                        </div>
+                        <div class="col-sm-3 col-xs-12 text-center">
+                            <a href="#">购买</a>
+                        </div>
+                    </div>
+                    <div class="col-xs-12">
+                        <div class="col-sm-3 col-xs-4 text-center"><p><em>3</em>个月</p></div>
+                        <div class="col-sm-6 col-xs-8 text-center">
+                            <p>约定年化收益率
+                                <br>
+                                <em>3.50%</em>起
+                            </p>
+                            <p>
+                                总成交金额
+                                <br>
+                                <em>1880万元</em>
+                            </p>
+                        </div>
+                        <div class="col-sm-3 col-xs-12 text-center">
+                            <a href="#">购买</a>
+                        </div>
+                    </div>
+                    <div class="col-xs-12">
+                        <div class="col-sm-3 col-xs-4 text-center"><p><em>3</em>个月</p></div>
+                        <div class="col-sm-6 col-xs-8 text-center">
+                            <p>约定年化收益率
+                                <br>
+                                <em>3.50%</em>起
+                            </p>
+                            <p>
+                                总成交金额
+                                <br>
+                                <em>1880万元</em>
+                            </p>
+                        </div>
+                        <div class="col-sm-3 col-xs-12 text-center">
+                            <a href="#">购买</a>
+                        </div>
+                    </div>
+                    <div class="col-xs-12">
+                        <div class="col-sm-3 col-xs-4 text-center"><p><em>3</em>个月</p></div>
+                        <div class="col-sm-6 col-xs-8 text-center">
+                            <p>约定年化收益率
+                                <br>
+                                <em>3.50%</em>起
+                            </p>
+                            <p>
+                                总成交金额
+                                <br>
+                                <em>1880万元</em>
+                            </p>
+                        </div>
+                        <div class="col-sm-3 col-xs-12 text-center">
+                            <a href="#">购买</a>
+                        </div>
+                    </div>
+                    <div class="col-xs-12">
+                        <div class="col-sm-3 col-xs-4 text-center"><p><em>3</em>个月</p></div>
+                        <div class="col-sm-6 col-xs-8 text-center">
+                            <p>约定年化收益率
+                                <br>
+                                <em>3.50%</em>起
+                            </p>
+                            <p>
+                                总成交金额
+                                <br>
+                                <em>1880万元</em>
+                            </p>
+                        </div>
+                        <div class="col-sm-3 col-xs-12 text-center">
+                            <a href="#">购买</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-3 col-xs-12 text-center autoheight-c">
+                <h4>固定期限产品</h4>
+                <p>甄选优质基金<br>
+                    省时省力<br>
+                    坐等收益</p>
+            </div>
+            <div class="col-md-9 col-xs-12 autoheight-p">
+                <div class="row">
+                    <div class="col-xs-12">
+                        <div class="col-sm-3 col-xs-4 text-center"><p><em>3</em>个月</p></div>
+                        <div class="col-sm-6 col-xs-8 text-center">
+                            <p >约定年化收益率
+                                <br>
+                                <em>3.50%</em>起
+                            </p>
+                            <p >
+                                总成交金额
+                                <br>
+                                <em>1880</em>万元
+                            </p>
+                        </div>
+                        <div class="col-sm-3 col-xs-12 text-center">
+                            <a href="#">购买</a>
+                        </div>
+                    </div>
+                    <div class="col-xs-12">
+                        <div class="col-sm-3 col-xs-4 text-center"><p><em>3</em>个月</p></div>
+                        <div class="col-sm-6 col-xs-8 text-center">
+                            <p>约定年化收益率
+                                <br>
+                                <em>3.50%</em>起
+                            </p>
+                            <p>
+                                总成交金额
+                                <br>
+                                <em>1880万元</em>
+                            </p>
+                        </div>
+                        <div class="col-sm-3 col-xs-12 text-center">
+                            <a href="#">购买</a>
+                        </div>
+                    </div>
+                    <div class="col-xs-12">
+                        <div class="col-sm-3 col-xs-4 text-center"><p><em>3</em>个月</p></div>
+                        <div class="col-sm-6 col-xs-8 text-center">
+                            <p>约定年化收益率
+                                <br>
+                                <em>3.50%</em>起
+                            </p>
+                            <p>
+                                总成交金额
+                                <br>
+                                <em>1880万元</em>
+                            </p>
+                        </div>
+                        <div class="col-sm-3 col-xs-12 text-center">
+                            <a href="#">购买</a>
+                        </div>
+                    </div>
+                    <div class="col-xs-12">
+                        <div class="col-sm-3 col-xs-4 text-center"><p><em>3</em>个月</p></div>
+                        <div class="col-sm-6 col-xs-8 text-center">
+                            <p>约定年化收益率
+                                <br>
+                                <em>3.50%</em>起
+                            </p>
+                            <p>
+                                总成交金额
+                                <br>
+                                <em>1880万元</em>
+                            </p>
+                        </div>
+                        <div class="col-sm-3 col-xs-12 text-center">
+                            <a href="#">购买</a>
+                        </div>
+                    </div>
+                    <div class="col-xs-12">
+                        <div class="col-sm-3 col-xs-4 text-center"><p><em>3</em>个月</p></div>
+                        <div class="col-sm-6 col-xs-8 text-center">
+                            <p>约定年化收益率
+                                <br>
+                                <em>3.50%</em>起
+                            </p>
+                            <p>
+                                总成交金额
+                                <br>
+                                <em>1880万元</em>
+                            </p>
+                        </div>
+                        <div class="col-sm-3 col-xs-12 text-center">
+                            <a href="#">购买</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--/产品推荐-->
+
+<!--相关推荐-->
+<section id="footer-content">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3 hidden-xs hidden-sm text-center">
+                <i class="footer-brand">
+
+                </i>
+            </div>
+            <div class="col-md-9 col-xs-12">
+                <div class="row">
+                    <div class="col-xs-3 text-center">
+                        <ul>
+                            <li class="first-li">关于我们</li>
+                            <li>公司介绍</li>
+                            <li>业务模式</li>
+                            <li>合作机构</li>
+                            <li>服务协议</li>
+                        </ul>
+                    </div>
+                    <div class="col-xs-3 text-center">
+                        <ul>
+                            <li class="first-li">关于我们</li>
+                            <li>公司介绍</li>
+                            <li>业务模式</li>
+                            <li>合作机构</li>
+                            <li>服务协议</li>
+                        </ul>
+                    </div>
+                    <div class="col-xs-3 text-center">
+                        <ul>
+                            <li class="first-li">关于我们</li>
+                            <li>公司介绍</li>
+                            <li>业务模式</li>
+                            <li>合作机构</li>
+                            <li>服务协议</li>
+                        </ul>
+                    </div>
+                    <div class="col-xs-3 text-center">
+                        <ul>
+                            <li class="first-li">关于我们</li>
+                            <li>公司介绍</li>
+                            <li>业务模式</li>
+                            <li>合作机构</li>
+                            <li>服务协议</li>
+                        </ul>
+                    </div>
+                </div>
+            <!--</div>-->
+        </div>
+    </div>
+</section>
+<!--相关推荐-->
+
+<!--copyright-->
+<footer id="footer-copyright" class="hidden-xs">
+    <div class="container">
+        <ul>
+            <li><span class="icon-01"></span></li>
+            <li><span class="icon-02"></span></li>
+            <li><span class="icon-03"></span></li>
+            <li><span class="icon-04"></span></li>
+            <li><span class="icon-05"></span></li>
+            <li><span class="icon-06"></span></li>
+            <li><span class="icon-07"></span></li>
+        </ul>
+        <p>北京某互联网有限公司 版权所有 © 2015-2016</p>
+    </div>
+</footer>
+<!--/copyright-->
+
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<!--<script src="https://cdn.bootcss.com/jquery/1.12.4/jquery.min.js"></script>-->
+<script src="lib/jQuery/jquery-1.9.1.min.js"></script>
+<script src="lib/Bootstarp/js/bootstrap.js"></script>
+<!--<script src="lib/less/less.min.js"></script>-->
+<script src="//cdn.bootcss.com/picturefill/3.0.2/picturefill.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
